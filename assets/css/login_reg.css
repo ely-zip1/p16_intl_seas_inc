@@ -1,0 +1,187 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    color: black !important;
+    background-color: #084081 !important;
+}
+
+.login_card {
+    margin-top: 5%;
+    box-shadow: 1px 1px 5px #00000066;
+    background-color: #ffffffdd;
+    border: 1px solid white;
+    margin-bottom: 110px;
+}
+
+.login-brand-group {
+    /* font-size: 20px; */
+    letter-spacing: normal;
+    /* font-weight: bold; */
+    color: #0a2c74;
+}
+
+.btn_login {
+    background-color: #0a2c74;
+    color: #ffffff;
+}
+
+.btn_login:hover {
+    background-color: #123b94 !important;
+}
+
+.btn_login:focus {
+    background-color: #06215e !important;
+}
+
+.sign_up {
+    color: #0a2c74;
+}
+
+.forgot_password {
+    /* font-size: 11px; */
+    color: #0a2c74;
+}
+
+.all-rights-reserved {
+    color: white;
+    margin-top: 200px;
+}
+
+
+/* ========================================================================================================================= */
+
+
+/* ========================================================================================================================= */
+
+
+/* ========================================================================================================================= */
+
+.registration_card,
+.verification_card,
+.card_forgot_password {
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px #00000066;
+    background-color: #ffffffdd;
+    margin-bottom: 110px;
+}
+
+.reg-title {
+    font-size: 30px !important;
+}
+
+.btn_reset_password,
+.btn_verify {
+    background-color: #4284CE;
+    color: white;
+}
+
+.btn_reset_password,
+.btn_verify:hover {
+    background-color: #0077ff !important;
+}
+
+
+/* ========================================================================================================================= */
+
+
+/* ========================================================================================================================= */
+
+
+/* ========================================================================================================================= */
+
+.crossfade>figure {
+    animation: imageAnimation 30s linear infinite 0s;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center center;
+    color: black;
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+}
+
+.crossfade>figure:nth-child(1) {
+    background-image: url('../img/bg/bg (1).jpg');
+}
+
+.crossfade>figure:nth-child(2) {
+    animation-delay: 6s;
+    background-image: url('../img/bg/bg (2).jpg');
+}
+
+.crossfade>figure:nth-child(3) {
+    animation-delay: 12s;
+    background-image: url('../img/bg/bg (3).jpg');
+}
+
+.crossfade>figure:nth-child(4) {
+    animation-delay: 18s;
+    background-image: url('../img/bg/bg (4).jpg');
+}
+
+.crossfade>figure:nth-child(5) {
+    animation-delay: 24s;
+    background-image: url('../img/bg/bg (5).jpg');
+}
+
+@keyframes imageAnimation {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+    8% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+    17% {
+        opacity: 1
+    }
+    25% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+.crossfade-registration>figure {
+    animation: imageAnimation 30s linear infinite 0s;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center center;
+    color: black;
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+}
+
+.crossfade-registration>figure:nth-child(1) {
+    background-image: url('../img/bg/bg (1).jpg');
+}
+
+.crossfade-registration>figure:nth-child(2) {
+    animation-delay: 6s;
+    background-image: url('../img/bg/bg (2).jpg');
+}
+
+.crossfade-registration>figure:nth-child(3) {
+    animation-delay: 12s;
+    background-image: url('../img/bg/bg (3).jpg');
+}
+
+.crossfade-registration>figure:nth-child(4) {
+    animation-delay: 18s;
+    background-image: url('../img/bg/bg (4).jpg');
+}
+
+.crossfade-registration>figure:nth-child(5) {
+    animation-delay: 24s;
+    background-image: url('../img/bg/bg (5).jpg');
+}

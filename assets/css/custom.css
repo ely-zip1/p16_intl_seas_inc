@@ -1,0 +1,388 @@
+@font-face {
+    font-family: 'ergonomique';
+    src: url('../fonts/ergonomique/ergonomique-regular-webfont.woff2') format('woff2'), url('../fonts/ergonomique/ergonomique-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1008px) {
+    .navbar-bg {
+        background-color: #fff;
+    }
+    .account-summary-top {
+        text-align: center !important;
+    }
+    .plan-box .purchase-button {
+        font-size: 5vw !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .detail-cell {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .chosen-plan {
+        font-size: 30px !important;
+    }
+    .chosen-plan-amount {
+        font-size: 30px !important;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.555);
+    border: 1px solid white;
+}
+
+.body-background {
+    position: fixed;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110%;
+    width: 110%;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.navbar-bg {
+    background-color: #4284CE;
+}
+
+.sidebar-menu .nav-link img {
+    width: 30px;
+    margin: auto 10px;
+}
+
+.sidebar-menu li a {
+    color: #000 !important;
+}
+
+.header-logo {
+    padding: 10px !important;
+}
+
+.section-header {
+    background-color: #4283ce !important;
+    border-radius: 3px !important;
+    height: 60px !important;
+}
+
+.section-header h1 {
+    color: white !important;
+}
+
+.fas,
+.fa-bars {
+    color: #4284CE !important;
+    font-size: x-large !;
+}
+
+.affiliate-link-group {
+    background-color: rgba(255, 255, 255, 0.658);
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.affiliate-link {
+    color: #FE9452;
+    font-weight: bold;
+    /* text-shadow: 1px 1px 2px black; */
+}
+
+.affiliate-link:hover {
+    color: #0040b8;
+    text-decoration: none;
+}
+
+.copy-button {
+    /* background: #4284CE; */
+    /* border: 2px solid black; */
+    /* border-radius: 3px; */
+    border: none;
+    background: none;
+    cursor: copy;
+    font-size: 20px;
+}
+
+.referral-link-modal {
+    padding: 20px;
+}
+
+.account-summary-box {
+    background-color: rgba(255, 255, 255, 0.658);
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+
+.summary-value {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.account-summary-bottom {
+    margin: 20px auto;
+}
+
+.account-summary-bottom a {
+    color: #4283ce;
+    font-weight: bold;
+}
+
+.user-details {
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.detail-cell {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.detail-cell img {
+    width: 75px;
+}
+
+.user-info {
+    margin: 10px;
+}
+
+.user-detail-value {
+    font-weight: bold;
+}
+
+.main-footer {
+    z-index: 1000;
+}
+
+.footer-rights {
+    z-index: 100000000000000000000 !important;
+}
+
+.plan-box {
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.616);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.plan-box img {
+    width: 100%;
+    border-radius: 3px;
+    /* box-shadow: 1px -5px 5px rgba(0, 0, 0, 0.548); */
+}
+
+.plan-box-1 {
+    background-color: #F4EDEA;
+}
+
+.plan-box-2 {
+    background-color: #DEE6F0;
+}
+
+.plan-box-3 {
+    background-color: #CFD3DC;
+}
+
+.plan-box .purchase-button {
+    border: none;
+    background: #FE9452;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vw;
+    margin: 20px;
+    padding: 5px 30px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.473);
+    cursor: pointer;
+}
+
+.row-deposit {
+    margin: 50px auto;
+    padding: 20px 10px;
+    background: rgba(255, 255, 255, 0.651);
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.submit-deposit {
+    background-color: #4284CE;
+    color: white;
+}
+
+.submit-deposit:hover {
+    background-color: #569ef0 !important;
+    color: white !important;
+    box-shadow: 0 0 5px #40c9ff;
+}
+
+.submit-deposit:focus {
+    background-color: #235691 !important;
+    color: white !important;
+}
+
+.chosen-plan {
+    font-weight: bolder;
+    font-size: 2.2vw;
+    color: #4284CE;
+}
+
+.chosen-plan-amount {
+    color: #FE9452;
+    font-weight: bolder;
+    font-size: 2vw;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.445);
+}
+
+.deposit-details .card {
+    background-color: rgba(255, 255, 255, 0.63);
+    border: 1px solid white;
+}
+
+.receipt-header {
+    margin: 20px;
+}
+
+.line-separator {
+    height: 2px;
+    width: 100%;
+    background: #000;
+}
+
+.receipt-body {
+    margin: auto;
+    color: #000;
+}
+
+.table-receipt-row {
+    padding: 10px 0px;
+}
+
+.receipt-selected-plan {
+    color: #4284CE;
+    font-weight: bold;
+}
+
+.deposit_address {
+    color: #FE9452;
+    font-family: "Consolas" !important;
+}
+
+.withdrawal_note {
+    color: #4284CE;
+}
+
+.deposit_detail_confirm {
+    background-color: #4284CE;
+    color: white;
+}
+
+.withdraw-content {
+    min-width: 300px;
+    margin: auto;
+}
+
+.withdrawal_alert {
+    color: #4284CE;
+}
+
+.withdraw_button {
+    background-color: #4284CE !important;
+    color: white;
+}
+
+.card_ref_active {
+    background-color: rgba(255, 255, 255, 0.61);
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.totals-row {
+    text-align: center;
+}
+
+.totals-row .total-title {
+    font-weight: bold;
+}
+
+.totals-row .total-value {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.row_transfer_form .card {
+    padding: 20px;
+}
+
+.content-area {
+    /* margin: auto; */
+    background-color: rgba(255, 255, 255, 0.658);
+    padding: 30px 10px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    background-size: auto;
+}
+
+.adv-withdrawal-button {
+    width: 100px;
+    background-color: #235691;
+    color: #fff;
+}
+
+.adv-withdrawal-button:hover {
+    background-color: #094283 !important;
+    color: #fff;
+}
+
+.adv-withdrawal-button:focus {
+    background-color: #548dce !important;
+    color: #fff;
+}
+
+.main-navbar>a.hamburger-menu>.fa-bars:before {
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+}
+
+.hamburger-menu::after {
+    content: "Menu";
+    color: #4284CE;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+}
+
+.img-box {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
+    border: 2px solid #fff;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.market-plan-img {
+    width: 100%;
+    border-radius: 3px;
+}
