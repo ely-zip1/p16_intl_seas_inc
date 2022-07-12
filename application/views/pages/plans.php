@@ -40,7 +40,7 @@ $this->load->view('templates/header');
                 <!-- ================================================================================= -->
 
 
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="plan-box plan-box-1">
                         <a id="package-1">
                             <img src="<?= base_url(); ?>assets/img/packages/1.JPG" alt="">
@@ -49,7 +49,7 @@ $this->load->view('templates/header');
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="plan-box plan-box-2">
                         <a id="package-2">
                             <img src="<?= base_url(); ?>assets/img/packages/2.JPG" alt="">
@@ -58,10 +58,19 @@ $this->load->view('templates/header');
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="plan-box plan-box-3">
                         <a id="package-3">
                             <img src="<?= base_url(); ?>assets/img/packages/3.JPG" alt="">
+                        </a>
+                        <!-- <button class="purchase-button" id="package-3">ACTIVATE NOW</button> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="plan-box plan-box-4">
+                        <a id="package-4">
+                            <img src="<?= base_url(); ?>assets/img/packages/4.JPG" alt="">
                         </a>
                         <!-- <button class="purchase-button" id="package-3">ACTIVATE NOW</button> -->
                     </div>
@@ -84,20 +93,26 @@ $this->load->view('templates/header');
                             </div>
                             <div class="chosen-plan-panel" id="plan-1" hidden>
                                 <p class="you-selected">You Selected:</p>
-                                <span class="chosen-plan">MOBIL PLAN</span>
-                                <p class="chosen-plan-amount">$100</p>
+                                <span class="chosen-plan">HANDYMAX PLAN</span>
+                                <p class="chosen-plan-amount">$90</p>
                             </div>
 
                             <div class="chosen-plan-panel" id="plan-2" hidden>
                                 <p class="you-selected">You Selected:</p>
-                                <span class="chosen-plan">ESSO PLAN</span>
-                                <p class="chosen-plan-amount">$1,000</p>
+                                <span class="chosen-plan">SUPRAMAX PLAN</span>
+                                <p class="chosen-plan-amount">$900</p>
                             </div>
 
                             <div class="chosen-plan-panel" id="plan-3" hidden>
                                 <p class="you-selected">You Selected:</p>
-                                <span class="chosen-plan">SYNERGY PLAN</span>
-                                <p class="chosen-plan-amount">$10,000</p>
+                                <span class="chosen-plan">AFRAMAX PLAN</span>
+                                <p class="chosen-plan-amount">$9,000</p>
+                            </div>
+
+                            <div class="chosen-plan-panel" id="plan-4" hidden>
+                                <p class="you-selected">You Selected:</p>
+                                <span class="chosen-plan">SUEZMAX PLAN</span>
+                                <p class="chosen-plan-amount">$90,000</p>
                             </div>
                         </div>
 
@@ -105,7 +120,7 @@ $this->load->view('templates/header');
                             <div class="form-row">
                                 <!-- <div class="form-group col-md-4 deposit-form"> -->
                                 <div class="form-group col-md-4 deposit-form" style="display:none;">
-                                    <label for="chosen_plan">Choose Package</label>
+                                    <label for="chosen_plan" class="text-white">Choose Package</label>
                                     <select class="form-control" name="chosen_plan" id="dropdown_plan"
                                         style="border-radius:20px;">
                                         <option <?php if ($selected_plan == 'plan1') {
@@ -117,6 +132,9 @@ $this->load->view('templates/header');
                                         <option <?php if ($selected_plan == 'plan3') {
                                                     echo 'selected';
                                                 } ?> value="plan3"><?php echo $plan3; ?></option>
+                                        <option <?php if ($selected_plan == 'plan4') {
+                                                    echo 'selected';
+                                                } ?> value="plan4"><?php echo $plan4; ?></option>
                                     </select>
                                     <div class="invalid-feedback">
                                         <?php echo form_error('chosen_plan'); ?>
@@ -124,7 +142,7 @@ $this->load->view('templates/header');
                                 </div>
 
                                 <div class="form-group col-md-12 deposit-form">
-                                    <label for="plan_option">Mode of Payment</label>
+                                    <label for="plan_option" class="text-white">Mode of Payment</label>
                                     <select class="form-control" name="plan_payment_mode"
                                         <?php if (!$is_verified) echo 'disabled'; ?>>
 
@@ -166,7 +184,7 @@ $this->load->view('templates/header');
                                 </div>
 
                                 <div class="form-group col-md-12 deposit-form">
-                                    <label for="deposit_amount">Amount ($)</label>
+                                    <label for="deposit_amount" class="text-white">Amount ($)</label>
                                     <div class="input-group">
                                         <input type="text" class="deposit-amount form-control 
                                             <?php if (strlen(form_error('deposit_amount')) > 0) {

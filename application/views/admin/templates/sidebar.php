@@ -5,11 +5,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <aside id="sidebar-wrapper">
 
         <div class="sidebar-brand">
-            <a href="<?= base_url('deposits_admin'); ?>">Imperial Oil</a>
+            <a href="<?= base_url('deposits_admin'); ?>">Intl Seas Inc.</a>
             <!-- <a href="<?= base_url(); ?>AdminDashboard"><img src="<?= base_url(); ?>assets/img/MPD_Logo_blue.png" alt="logo" width="150"></a> -->
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
-            <a href="<?= base_url('deposits_admin'); ?>">IO</a>
+            <a href="<?= base_url('deposits_admin'); ?>">ISi</a>
             <!-- <a href="<?= base_url(); ?>AdminDashboard"><img src="<?= base_url(); ?>assets/img/MPD_Logo_small_blue.png" alt="logo" width="40"></a> -->
         </div>
 
@@ -64,11 +64,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         class="far fa-envelope"></i><span>Messages</span></a>
             </li>
 
-            <li class="dropdown <?php echo $this->uri->segment(1) == 'admin_loan' ? 'active' : ''; ?>"> <a
+            <!-- <li class="dropdown <?php echo $this->uri->segment(1) == 'admin_loan' ? 'active' : ''; ?>"> <a
                     href="<?= base_url(); ?>admin_loan" class="nav-link"><i
                         class="fas fa-business-time"></i><span>Advanced
                         Withdrawals</span></a>
-            </li>
+            </li> -->
 
             <li class="dropdown <?php echo $this->uri->segment(1) == 'Activation_fund_admin' ? 'active' : ''; ?>"> <a
                     href="<?= base_url(); ?>Activation_fund_admin" class="nav-link"><i class="fas fa-bolt"></i><span>

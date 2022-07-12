@@ -38,7 +38,7 @@ $this->load->view('templates/header');
                     <div class="account-summary-box">
                         <div class="row account-summary-top">
                             <div class="col-md-4">
-                                <img src="https://img.icons8.com/color/96/000000/bank-building.png" />
+                                <img src="https://img.icons8.com/fluency/96/000000/merchant-account.png" />
                             </div>
                             <div class="col-md-8">
                                 <span class="summary-label">ACCOUNT BALANCE</span><br>
@@ -49,7 +49,7 @@ $this->load->view('templates/header');
                         </div>
                         <div class="row account-summary-bottom">
                             <div class="col-md-12 d-flex justify-content-center align-items-center">
-                                <a href="<?= base_url(); ?>withdraw">MAKE WITHDRAWAL</a>
+                                <a href="<?= base_url(); ?>withdraw">WITHDRAW</a>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ $this->load->view('templates/header');
                     <div class="account-summary-box">
                         <div class="row account-summary-top">
                             <div class="col-md-4">
-                                <img src="https://img.icons8.com/color/96/000000/money-transfer.png" />
+                                <img src="https://img.icons8.com/fluency/96/000000/conflict.png" />
                             </div>
                             <div class="col-md-8">
                                 <span class="summary-label">ACTIVATION FUNDS</span><br>
@@ -70,7 +70,7 @@ $this->load->view('templates/header');
                         </div>
                         <div class="row account-summary-bottom">
                             <div class="col-md-12 d-flex justify-content-center align-items-center">
-                                <a href="<?= base_url(); ?>plans">MAKE DEPOSIT</a>
+                                <a href="<?= base_url(); ?>plans">DEPOSIT</a>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ $this->load->view('templates/header');
                     <div class="account-summary-box">
                         <div class="row account-summary-top">
                             <div class="col-md-4">
-                                <img src="https://img.icons8.com/color/96/000000/money-transfer.png" />
+                                <img src="https://img.icons8.com/fluency/96/000000/bank.png" />
                             </div>
                             <div class="col-md-8">
                                 <span class="summary-label">ACTIVE DEPOSIT</span><br>
@@ -118,7 +118,7 @@ $this->load->view('templates/header');
                     <div class="account-summary-box">
                         <div class="row account-summary-top">
                             <div class="col-md-4">
-                                <img src="https://img.icons8.com/color/96/000000/atm.png" />
+                                <img src="https://img.icons8.com/fluency/96/000000/safe-out.png" />
                             </div>
                             <div class="col-md-8">
                                 <span class="summary-label">TOTAL WITHDRAWAL</span><br>
@@ -155,7 +155,7 @@ $this->load->view('templates/header');
                         <div class="detail-cell">
                             <div class="">
                                 <div class="img-container">
-                                    <img src="https://img.icons8.com/bubbles/100/000000/test-account.png" />
+                                    <img src="https://img.icons8.com/ios/100/228BE6/user-male-circle.png" />
                                 </div>
                             </div>
                             <div class="col-sm-auto mt-2 user-info">
@@ -167,7 +167,7 @@ $this->load->view('templates/header');
                         <div class="detail-cell">
                             <div class="">
                                 <div class="img-container">
-                                    <img src="https://img.icons8.com/bubbles/100/000000/calendar.png" />
+                                    <img src="https://img.icons8.com/ios/100/228BE6/meeting-time--v2.png" />
                                 </div>
                             </div>
                             <div class="col-sm-auto mt-2 user-info">
@@ -185,14 +185,14 @@ $this->load->view('templates/header');
             <div class="row">
                 <div class="col-sm-12">
                     <div class="affiliate-link-group">
-                        <span>Your Referral Link:</span>
+                        <span>Referral Link:</span>
                         <a href="<?php echo base_url(); ?>my/ref/<?php echo $username; ?>" class="affiliate-link"
                             id="affiliate-link">
                             <span><?php echo base_url() . "my/ref/" . $username; ?></span>
                         </a>
                         <button type="button" id="TextToCopy" class="copy-button" data-toggle="modal"
                             data-target=".modal-copy-success">
-                            <i class="far fa-copy"></i>
+                            COPY
                         </button>
                     </div>
 

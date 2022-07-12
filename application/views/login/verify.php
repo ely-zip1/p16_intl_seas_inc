@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="col-12 text-center">
                             <div class="login-brand">
                                 <a href="<?= base_url();?>">
-                                    <img src="<?= base_url();?>assets/img/Imperial_Oil.svg" alt="logo" width="200px">
+                                    <img src="<?= base_url();?>assets/img/isi-logo.svg" alt="logo" width="200px">
                                 </a>
                                 <br>
                                 <!-- <span class="login-brand-group">Amico Group of Companies</span> -->
@@ -54,7 +54,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <?php echo form_open('verification'); ?>
                         <div class="form-group text-white" <?php if(isset($status)){if($status)echo 'hidden';} ?>>
-                            <label for="v_code" class="text-white">Code</label>
+                            <label for="v_code">Code</label>
                             <input id="v_code" type="text"
                                 class="form-control <?php if(strlen(form_error('v_code')) > 0){echo "is-invalid";} ?>"
                                 name="v_code" tabindex="1" autofocus value="<?= set_value('v_code','',true)?>">

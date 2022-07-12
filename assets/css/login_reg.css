@@ -1,13 +1,21 @@
 body {
     font-family: 'Poppins', sans-serif !important;
     color: black !important;
-    background-color: #084081 !important;
+    background-color: #0a2c74 !important;
+}
+
+.homeVideoBackground {
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .login_card {
     margin-top: 5%;
     box-shadow: 1px 1px 5px #00000066;
-    background-color: #ffffffdd;
+    background-color: #ffffff9c;
     border: 1px solid white;
     margin-bottom: 110px;
 }
@@ -15,7 +23,7 @@ body {
 .login-brand-group {
     /* font-size: 20px; */
     letter-spacing: normal;
-    /* font-weight: bold; */
+    font-weight: bold;
     color: #0a2c74;
 }
 
@@ -62,10 +70,15 @@ body {
     box-shadow: 1px 1px 5px #00000066;
     background-color: #ffffffdd;
     margin-bottom: 110px;
+    color: #0a2c74 !important;
 }
 
 .reg-title {
     font-size: 30px !important;
+}
+
+.log_reg_label .text-muted {
+    color: #0077ff !important;
 }
 
 .btn_reset_password,
@@ -77,6 +90,10 @@ body {
 .btn_reset_password,
 .btn_verify:hover {
     background-color: #0077ff !important;
+}
+
+.login-link>a {
+    color: #0a2c74;
 }
 
 

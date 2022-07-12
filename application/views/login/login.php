@@ -7,7 +7,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title><?php echo $title; ?> &mdash; International Seas, Inc.</title>
+    <title><?php echo $title; ?> &mdash; International Seaways, Inc.</title>
 
     <!-- favicon -->
     <link rel="icon" href="<?= base_url() ?>assets/img/favicon.ico" type="image/gif">
@@ -62,14 +62,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </head>
 
 <body class="body-login" id="page">
-
-    <div class="crossfade">
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-    </div>
+    <video autoplay muted loop class="homeVideoBackground">
+        <source src="<?= base_url('assets/img/corporate_profile.webm') ?>" type="video/mp4">
+    </video>
 
     <section class="login_section">
         <div class="login_form">
@@ -148,9 +143,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </form>
                             <div class="mb-3 text-center">
                                 <!-- <span class="create_account">Create an account. </span> -->
-                                Don't have an account?
+                                <!-- Don't have an account? -->
                                 <a class="sign_up" href="<?php echo base_url(); ?>registration">
-                                    Sign up.
+                                    Create an account
                                 </a>
                             </div>
                             <div class="mb-3 text-center">

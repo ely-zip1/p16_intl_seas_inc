@@ -25,11 +25,11 @@ $(document).ready(function() {
             $('#default').attr('hidden', true);
 
             $('#dropdown_plan').val("plan1")
-            $('#deposit-amount').val("100");
+            $('#deposit-amount').val("90");
             $('#deposit-amount').focus();
         } else {
             $('#dropdown_plan').val("plan1")
-            $('#deposit-amount').val("100");
+            $('#deposit-amount').val("90");
             $('#deposit-amount').focus();
         }
     });
@@ -46,11 +46,11 @@ $(document).ready(function() {
             $('#default').attr('hidden', true);
 
             $('#dropdown_plan').val("plan2")
-            $('#deposit-amount').val("1000");
+            $('#deposit-amount').val("900");
             $('#deposit-amount').focus();
         } else {
             $('#dropdown_plan').val("plan2")
-            $('#deposit-amount').val("1000");
+            $('#deposit-amount').val("900");
             $('#deposit-amount').focus();
         }
     });
@@ -67,11 +67,32 @@ $(document).ready(function() {
             $('#default').attr('hidden', true);
 
             $('#dropdown_plan').val("plan3")
-            $('#deposit-amount').val("10000");
+            $('#deposit-amount').val("9000");
             $('#deposit-amount').focus();
         } else {
             $('#dropdown_plan').val("plan3")
-            $('#deposit-amount').val("10000");
+            $('#deposit-amount').val("9000");
+            $('#deposit-amount').focus();
+        }
+    });
+
+    $('#package-4').click(function() {
+        if ($('#plan-4').is(':hidden') == true) {
+
+            $('#row_deposit').show();
+
+            $('#plan-1').attr('hidden', true);
+            $('#plan-2').attr('hidden', true);
+            $('#plan-3').attr('hidden', true);
+            $('#plan-4').removeAttr('hidden');
+            $('#default').attr('hidden', true);
+
+            $('#dropdown_plan').val("plan4")
+            $('#deposit-amount').val("90000");
+            $('#deposit-amount').focus();
+        } else {
+            $('#dropdown_plan').val("plan4")
+            $('#deposit-amount').val("90000");
             $('#deposit-amount').focus();
         }
     });

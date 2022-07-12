@@ -17,7 +17,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     </div> -->
 
     <div class="footer-rights text-center">
-        <span>© Copyright 2003-2022 Imperial Oil Limited. All Rights Reserved</span>
+        <span>© 2022 International Seaways, Inc. All Rights Reserved.</span>
     </div>
 
     <!-- <div class="footer-left">

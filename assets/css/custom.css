@@ -40,7 +40,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .card {
@@ -50,19 +50,32 @@ body {
 
 .body-background {
     position: fixed;
-    background-image: url('../img/background.jpg');
+    background-color: rgb(36, 36, 36);
+    /* background-image: url('../img/background.jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 110%;
     width: 110%;
-    filter: blur(6px);
-    -webkit-filter: blur(6px);
 }
 
 .navbar-bg {
-    background-color: #4284CE;
+    background-color: #0a2c74;
+}
+
+.main-sidebar {
+    background-color: #242424;
+}
+
+.main-sidebar .sidebar-menu li a {
+    color: rgb(119, 119, 119) !important;
+}
+
+.main-sidebar .sidebar-menu li.active a {
+    color: #fff !important;
+    font-weight: 600;
+    background-color: #343a40;
 }
 
 .sidebar-menu .nav-link img {
@@ -79,7 +92,8 @@ body {
 }
 
 .section-header {
-    background-color: #4283ce !important;
+    background-color: #0a2c74 !important;
+    box-shadow: 0 4px 0px rgb(0 0 0 / 28%) !important;
     border-radius: 3px !important;
     height: 60px !important;
 }
@@ -95,10 +109,10 @@ body {
 }
 
 .affiliate-link-group {
-    background-color: rgba(255, 255, 255, 0.658);
+    background-color: #343a40;
+    border: 1px solid #495057;
     padding: 10px;
     border-radius: 3px;
-    border: 1px solid #fff;
     text-align: center;
 }
 
@@ -114,13 +128,14 @@ body {
 }
 
 .copy-button {
-    /* background: #4284CE; */
-    /* border: 2px solid black; */
-    /* border-radius: 3px; */
+    border-radius: 10px;
     border: none;
-    background: none;
+    background: #0a2c74;
+    padding: 3px 10px;
     cursor: copy;
-    font-size: 20px;
+    font-size: 13px;
+    color: antiquewhite;
+    margin: 0px 6px;
 }
 
 .referral-link-modal {
@@ -128,16 +143,18 @@ body {
 }
 
 .account-summary-box {
-    background-color: rgba(255, 255, 255, 0.658);
+    background-color: #343a40;
+    border: 1px solid #495057;
     padding: 10px;
     border-radius: 3px;
-    border: 1px solid #fff;
     margin-top: 20px;
+    color: #007bff;
 }
 
 .summary-value {
     font-size: 2rem;
     font-weight: bold;
+    color: #3596fd;
 }
 
 .account-summary-bottom {
@@ -145,13 +162,19 @@ body {
 }
 
 .account-summary-bottom a {
-    color: #4283ce;
+    color: #343a40;
     font-weight: bold;
+    background-color: darkorange;
+    border-radius: 20px;
+    padding: 6px 10px;
+    min-width: 130px;
+    text-align: center;
 }
 
 .user-details {
     margin: 20px auto;
-    background-color: rgba(255, 255, 255, 0.658);
+    background-color: #343a40;
+    border: 1px solid #495057;
     border-radius: 3px;
     padding: 20px;
 }
@@ -167,6 +190,10 @@ body {
 
 .user-info {
     margin: 10px;
+}
+
+.user-detail-label {
+    color: #007bff;
 }
 
 .user-detail-value {
@@ -221,13 +248,14 @@ body {
 .row-deposit {
     margin: 50px auto;
     padding: 20px 10px;
-    background: rgba(255, 255, 255, 0.651);
-    border: 1px solid white;
+    background: #343a40;
+    border: 1px solid #495057;
     border-radius: 3px;
+    color: #007bff;
 }
 
 .submit-deposit {
-    background-color: #4284CE;
+    background-color: #0a2c74;
     color: white;
 }
 
@@ -245,11 +273,11 @@ body {
 .chosen-plan {
     font-weight: bolder;
     font-size: 2.2vw;
-    color: #4284CE;
+    color: #3596fd;
 }
 
 .chosen-plan-amount {
-    color: #FE9452;
+    color: #fe1616;
     font-weight: bolder;
     font-size: 2vw;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.445);

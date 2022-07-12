@@ -7,7 +7,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title><?php echo $title; ?> &mdash; Intl. Seas</title>
+    <title><?php echo $title; ?> &mdash; International Seaways, Inc.</title>
 
     <!-- favicon -->
     <link rel="icon" href="<?= base_url() ?>assets/img/favicon.ico" type="image/gif">
@@ -59,12 +59,5 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </head>
 
 <body class="body-login" id="page">
-    <div class="crossfade">
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-    </div>
 
     <div class="login-reg-bg"></div>

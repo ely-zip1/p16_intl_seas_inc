@@ -16,7 +16,7 @@ if (!isset($this->session->username)) {
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title><?php echo $title; ?> &mdash; Intl. Seas</title>
+    <title><?php echo $title; ?> &mdash; International Seaways, Inc.</title>
 
     <!-- favicon -->
     <link rel="icon" href="<?= base_url() ?>assets/img/favicon.ico" type="image/gif">
@@ -41,6 +41,10 @@ if (!isset($this->session->username)) {
     <!-- Start GA -->
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
     </style>
 
     <script>

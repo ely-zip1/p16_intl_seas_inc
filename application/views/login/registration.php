@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title><?php echo $title; ?> &mdash; Imperial Oil</title>
+    <title><?php echo $title; ?> &mdash; International Seaways, Inc.</title>
 
     <!-- favicon -->
     <link rel="icon" href="<?= base_url() ?>assets/img/favicon.ico" type="image/gif">
@@ -39,26 +39,20 @@
 </head>
 
 <body class="body-login">
-
-    <div class="crossfade-registration">
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-    </div>
+    <video autoplay muted loop class="homeVideoBackground">
+        <source src="<?= base_url('assets/img/corporate_profile.webm') ?>" type="video/mp4">
+    </video>
 
     <section class="login_section">
         <div class="login_form">
             <div class="row">
-                <div class="col-lg-6 offset-lg-3">
+                <div class="col-lg-4 offset-lg-4">
                     <div class="card registration_card">
                         <div class="row">
                             <div class="col-12 text-center">
                                 <div class="login-brand">
                                     <a href="<?= base_url(); ?>">
-                                        <img src="<?= base_url(); ?>assets/img/Imperial_Oil.svg" alt="logo"
-                                            width="200px">
+                                        <img src="<?= base_url(); ?>assets/img/isi-logo.svg" alt="logo" width="200px">
                                     </a>
                                     <br>
                                     <span class="login-brand-group">Registration</span>
@@ -91,7 +85,9 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="fullname" class="log_reg_label">Fullname:
+                                <label for="fullname" class="log_reg_label">Full Name: <small class="text-muted">(First
+                                        name,
+                                        Middle initial, Last name)</small>
                                 </label>
                                 <input id="fullname logreg_input" type="text"
                                     value="<?= set_value('fullname', '', true) ?>"
@@ -104,7 +100,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="password" class="log_reg_label">Create Password:
+                                <label for="password" class="log_reg_label">Password:
                                 </label>
                                 <input id="reg-password logreg_input" type="password"
                                     class="form-control login_input <?php if (strlen(form_error('password')) > 0) {
@@ -162,7 +158,7 @@
                                 </div>
                             </div> -->
                             <div class="form-group">
-                                <label for="referral" class="log_reg_label">Referred By:
+                                <label for="referral" class="log_reg_label">Referral code:
                                 </label>
                                 <input id="referral logreg_input" type="text"
                                     value="<?= set_value('referral', $referral_code, true) ?>"
@@ -206,7 +202,7 @@
     <div class="section footer-section text-center">
         <div class="row">
             <div class="col-12">
-                <span class="all-rights-reserved">© Copyright 2003-2022 Imperial Oil Limited. All Rights Reserved
+                <span class="all-rights-reserved">© 2022 International Seaways, Inc. All Rights Reserved.
                 </span>
             </div>
         </div>

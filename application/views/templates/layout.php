@@ -10,7 +10,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="navbar-bg"></div>
             <nav class="navbar navbar-expand-lg main-navbar">
                 <a href="<?php echo base_url(); ?>" class="navbar-brand sidebar-gone-hide">
-                    <img src="<?= base_url(); ?>assets/img/Imperial_Oil_white.svg" alt="logo" width="100px"
+                    <img src="<?= base_url(); ?>assets/img/isi-logo-white.svg" alt="logo" width="100px"
                         class="header-logo">
                 </a>
                 <a href="#" class="nav-link sidebar-gone-show hamburger-menu" data-toggle="sidebar">
@@ -24,7 +24,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <ul class="navbar-nav navbar-right">
                     <li class="dropdown"><a href="#" data-toggle="dropdown"
                             class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-                            <img src="https://img.icons8.com/cotton/64/000000/user-male-circle.png" />
+                            <img src="https://img.icons8.com/ios-filled/100/ffffff/user-male-circle.png" />
                             <div class="d-sm-none d-lg-inline-block"></div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">

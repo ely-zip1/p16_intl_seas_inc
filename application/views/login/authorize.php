@@ -7,7 +7,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title><?php echo $title; ?> &mdash; Imperial Oil</title>
+    <title><?php echo $title; ?> &mdash; International Seaways, Inc.</title>
 
     <!-- favicon -->
     <link rel="icon" href="<?= base_url() ?>assets/img/favicon.ico" type="image/gif">
@@ -52,8 +52,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </head>
 
 <body class="body-login" id="page">
+    <video autoplay muted loop class="homeVideoBackground">
+        <source src="<?= base_url('assets/img/corporate_profile.webm') ?>" type="video/mp4">
+    </video>
 
-    <div class="login-reg-bg"></div>
+    <!-- <div class="login-reg-bg"></div> -->
 
     <section class="login_section">
         <div class="login_form">
@@ -67,7 +70,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <div class="col-12 text-center">
                                     <div class="login-brand">
                                         <a href="<?= base_url(); ?>">
-                                            <img src="<?= base_url(); ?>assets/img/Imperial_Oil.svg" alt="logo"
+                                            <img src="<?= base_url(); ?>assets/img/isi-logo.svg" alt="logo"
                                                 width="200px">
                                         </a>
                                         <br>

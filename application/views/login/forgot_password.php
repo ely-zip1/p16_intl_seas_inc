@@ -16,7 +16,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="col-12 text-center">
                             <div class="login-brand">
                                 <a href="<?= base_url(); ?>">
-                                    <img src="<?= base_url(); ?>assets/img/Imperial_Oil.svg" alt="logo" width="200px">
+                                    <img src="<?= base_url(); ?>assets/img/isi-logo.svg" alt="logo" width="200px">
                                 </a>
                                 <br>
                                 <span class="login-brand-group">Password Reset</span>
