@@ -57,7 +57,7 @@ class Registration extends CI_Controller
       ];
       $password = password_hash($_POST['password'], PASSWORD_BCRYPT, $options);
 
-      $verification_code = "IMPERIAL";
+      $verification_code = "INTSEAINC";
 
       $user_data = array(
         'full_name' => $_POST['fullname'],
@@ -120,7 +120,7 @@ class Registration extends CI_Controller
 
     $this->load->library('email');
 
-    $this->email->from('support@imperialoilcommunity.com', 'Imperial Oil Community')
+    $this->email->from('support@member-intlseaways.com', 'International Seaways, Inc.')
       ->to($data['email'])
       ->subject('Email Verification')
       ->message('
@@ -158,7 +158,7 @@ class Registration extends CI_Controller
 
     $this->load->library('email');
 
-    $this->email->from('support@imperialoilcommunity.com', 'Imperial Oil Community')
+    $this->email->from('support@member-intlseaways.com', 'International Seaways, Inc.')
       ->to($email)
       ->subject('Welcome')
       ->message($this->load->view('email/welcome', $email_data, true));

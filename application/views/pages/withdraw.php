@@ -88,9 +88,6 @@ $this->load->view('templates/header');
                                                                 <option <?php if ($selected_mode == 'mode10') {
                                                                             echo 'selected';
                                                                         } ?> value="mode10">Litecoin</option>
-                                                                <option <?php if ($selected_mode == 'mode11') {
-                                                                            echo 'selected';
-                                                                        } ?> value="mode11">Doge Coin</option>
                                                             </select>
                                                             <div class="invalid-feedback">
                                                                 <?php echo form_error('plan_payment_mode'); ?>

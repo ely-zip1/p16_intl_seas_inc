@@ -59,7 +59,7 @@ $this->load->view('templates/header');
                     <div class="account-summary-box">
                         <div class="row account-summary-top">
                             <div class="col-md-4">
-                                <img src="https://img.icons8.com/fluency/96/000000/conflict.png" />
+                                <img src="https://img.icons8.com/fluency/96/000000/electro-devices.png" />
                             </div>
                             <div class="col-md-8">
                                 <span class="summary-label">ACTIVATION FUNDS</span><br>

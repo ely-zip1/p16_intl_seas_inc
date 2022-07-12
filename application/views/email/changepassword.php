@@ -35,13 +35,13 @@
                     <p>Dear <strong><?= $name ?></strong>,</p>
 
                     <p>This is a courtesy message to let you know
-                        that your ImperialOilCommunity password has been
+                        that your member-intlseaways password has been
                         successfuly changed. No response is needed.
                     </p>
 
                     <p>Thank you,
                         <br>
-                        Imperial Oil Community
+                        International Seaways, Inc.
                     </p>
                 </div>
             </div>

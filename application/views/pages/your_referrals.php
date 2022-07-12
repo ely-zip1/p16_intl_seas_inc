@@ -18,7 +18,7 @@ $this->load->view('templates/header');
                 <div class="col-lg-12 text-center">
                     <div class="referral_summary">
                         <h6>Bonus</h6>
-                        <h4><?php echo $total_bonus; ?></h4>
+                        <h1><?php echo $total_bonus; ?></h1>
                     </div>
                 </div>
             </div>

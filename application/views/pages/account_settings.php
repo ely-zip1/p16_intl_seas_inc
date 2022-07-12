@@ -325,7 +325,7 @@ $this->load->view('templates/header');
                     </div>
                 </div>
 
-                <div class="col-md-12">
+                <!-- <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
                             <h4>Doge Coin</h4>
@@ -354,7 +354,7 @@ $this->load->view('templates/header');
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="col-md-12">
                     <div class="card">

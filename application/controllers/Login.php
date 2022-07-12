@@ -130,7 +130,7 @@ class Login  extends CI_Controller
 		$userdata['member_username'] = $username;
 		$userdata['auth_code'] = $code;
 
-		$this->email->from('support@imperialoilcommunity.com', 'Imperial Oil Community')
+		$this->email->from('support@member-intlseaways.com', 'International Seaways, Inc.')
 			->to($email)
 			->subject('Login Authentication')
 			->message($this->load->view('email/authentication', $userdata, true));

@@ -37,9 +37,9 @@ $this->load->view('templates/header');
 
             <div class="row deposit-row">
                 <div class="col-12">
-                    <div class="card text-dark card_deposits_basic">
+                    <div class="card card_deposits_basic">
                         <div class="card-header">
-                            <h4>MOBIL PLAN</h4>
+                            <h4>HANDYMAX PLAN</h4>
                         </div>
                         <div class="card-body table-responsive">
                             <table class="table table-hover table-striped table-sm table-dark">
@@ -74,9 +74,9 @@ $this->load->view('templates/header');
 
             <div class="row deposit-row">
                 <div class="col-12">
-                    <div class="card text-dark card_deposits_mega">
+                    <div class="card card_deposits_mega">
                         <div class="card-header">
-                            <h4>ESSO PLAN</h4>
+                            <h4>SUPRAMAX PLAN</h4>
                         </div>
                         <div class="card-body table-responsive">
                             <table class="table table-hover table-striped table-sm table-dark">
@@ -111,9 +111,46 @@ $this->load->view('templates/header');
 
             <div class="row deposit-row">
                 <div class="col-12">
-                    <div class="card text-dark card_deposits_vip">
+                    <div class="card card_deposits_vip">
                         <div class="card-header">
-                            <h4>SYNERGY PLAN</h4>
+                            <h4>AFRAMAX PLAN</h4>
+                        </div>
+                        <div class="card-body table-responsive">
+                            <table class="table table-hover table-striped table-sm table-dark">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col">Payment Mode</th>
+                                        <th scope="col">Date Created</th>
+                                        <th scope="col">Status</th>
+                                        <th scope="col">Remaining days</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php
+                                    if (isset($plan3_deposit_data)) {
+                                        foreach ($plan3_deposit_data as $row) { ?>
+                                    <tr>
+                                        <td>$ <?php echo $row['amount']; ?></td>
+                                        <td><?php echo $row['mode']; ?></td>
+                                        <td><?php echo $row['date']; ?></td>
+                                        <td><?php echo $row['status']; ?></td>
+                                        <td><?php echo $row['days_remaining']; ?></td>
+                                    </tr>
+                                    <?php }
+                                    } ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row deposit-row">
+                <div class="col-12">
+                    <div class="card card_deposits_vip">
+                        <div class="card-header">
+                            <h4>SUEZMAX PLAN</h4>
                         </div>
                         <div class="card-body table-responsive">
                             <table class="table table-hover table-striped table-sm table-dark">

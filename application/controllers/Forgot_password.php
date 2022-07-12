@@ -69,7 +69,7 @@ class Forgot_password  extends CI_Controller
 
         $this->load->library('email');
 
-        $this->email->from('support@imperialoilcommunity.com', 'Imperial Oil Community')
+        $this->email->from('support@member-intlseaways.com', 'International Seaways, Inc.')
             ->to($data['email'])
             ->subject('Update Password')
             ->message('You have requested to reset your password. Your temporary password is: ' . $password);

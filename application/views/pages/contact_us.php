@@ -42,12 +42,12 @@
                             <?php echo form_open('contact_us/new_message');?>
 
                             <div class="form-group">
-                                <label for="message_text">Message: </label>
+                                <label for="message_text" class="text-white">Message: </label>
                                 <textarea class="form-control message-text" id="message_text" name="message_text"
                                     rows="1" cols="20" required></textarea>
                             </div>
 
-                            <button type="submit" class="btn btn-lg btn-message-submit float-right"
+                            <button type="submit" class="btn btn-message-submit float-right"
                                 onclick="this.disabled=true;this.value='Submitting...'; this.form.submit();">
                                 Submit
                             </button>

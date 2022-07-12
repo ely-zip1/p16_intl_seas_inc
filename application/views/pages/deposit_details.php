@@ -17,7 +17,7 @@ $this->load->view('templates/header');
                             <div class="card-body receipt-body">
 
                                 <div class="receipt-header text-center">
-                                    <img src="<?= base_url() ?>assets/img/Imperial_Oil.svg" alt="" width="120px">
+                                    <img src="<?= base_url() ?>assets/img/isi-logo.svg" alt="" width="120px">
                                 </div>
 
                                 <div class="line-separator"></div>
@@ -180,7 +180,7 @@ $this->load->view('templates/header');
                                                     <br>
                                                     <p>
                                                         Send your transaction receipt to
-                                                        <strong>payments@imperialoilcommunity.com</strong>
+                                                        <strong>payments@member-intlseaways.com</strong>
                                                     </p>
                                                     <!-- <p class="float-right">
                                                         The receipt will serve as your proof of payment.

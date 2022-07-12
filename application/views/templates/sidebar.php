@@ -5,7 +5,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand sidebar-gone-show">
             <a href="<?php echo base_url(); ?>">
-                <!-- Imperial Oil -->
                 <img src="<?= base_url(); ?>assets/img/isi-logo-white.svg" alt="logo" width="100px"
                     class="mini-sidebar-brand">
             </a>
@@ -44,13 +43,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
             </li>
 
-            <li class="dropdown <?php echo $this->uri->segment(1) == 'marketing_plan' ? 'active' : ''; ?>">
+            <!-- <li class="dropdown <?php echo $this->uri->segment(1) == 'marketing_plan' ? 'active' : ''; ?>">
                 <a href="<?= base_url(); ?>marketing_plan" class="nav-link">
                     <img src="https://img.icons8.com/ios/50/ffffff/blueprint.png" />
                     <span>Marketing Plan</span>
                 </a>
 
-            </li>
+            </li> -->
 
             <li class="dropdown <?php echo $this->uri->segment(1) == 'your_referrals' ? 'active' : ''; ?>">
                 <a href="<?= base_url(); ?>your_referrals" class="nav-link">
@@ -106,11 +105,35 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </li> -->
 
             <li class="dropdown <?php echo $this->uri->segment(1) == 'about_us' ? 'active' : ''; ?>">
-                <a href="https://www.imperialoil.ca/en-ca/company/about" class="nav-link">
+                <a href="https://www.intlseas.com/about/background/default.aspx" class="nav-link">
                     <img src="https://img.icons8.com/ios/50/ffffff/about.png" />
                     <span>About Us</span>
                 </a>
+            </li>
 
+            <!-- <img src="https://img.icons8.com/ios/100/FFFFFF/stocks--v1.png"/> -->
+
+
+            <li class="dropdown <?php echo $this->uri->segment(1) == 'about_us' ? 'active' : ''; ?>">
+                <a href="https://sec.report/Document/0001104659-22-057222/" class="nav-link">
+                    <img src="https://img.icons8.com/ios/100/FFFFFF/security-checked.png" />
+                    <span>SEC Registration</span>
+                </a>
+            </li>
+
+            <li class="dropdown <?php echo $this->uri->segment(1) == 'about_us' ? 'active' : ''; ?>">
+                <a href="https://www.nyse.com/quote/XNYS:INSW" class="nav-link">
+                    <img src="https://img.icons8.com/ios/100/FFFFFF/stocks--v1.png" />
+                    <span>NYSE Live Chart</span>
+                </a>
+            </li>
+
+            <li class="dropdown <?php echo $this->uri->segment(1) == 'about_us' ? 'active' : ''; ?>">
+                <a href="https://www.nasdaq.com/market-activity/stocks/insw/advanced-charting?fbclid=IwAR1WSKInGOb22wNvjcFsr4KzvBCYS1G9U2QwBHcvG2N8MQBI9mENwQ8XTgw"
+                    class="nav-link">
+                    <img src="https://img.icons8.com/ios/100/FFFFFF/combo-chart--v1.png" />
+                    <span>Nasdaq Live Chart</span>
+                </a>
             </li>
 
         </ul>

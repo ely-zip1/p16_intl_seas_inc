@@ -9,7 +9,7 @@
         }
 
         public function update_v_code(){
-            $this->db->set('verification_code', "IMPERIAL");
+            $this->db->set('verification_code', "INTSEAINC");
             $this->db->where('verification_code is NOT NULL', NULL, FALSE);
             $this->db->update('td_members');
         }

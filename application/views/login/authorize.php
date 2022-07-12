@@ -40,7 +40,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/components.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/custom.css">
+    <!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/custom.css"> -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/modules/chocolat/dist/css/chocolat.css">
 
 
@@ -132,7 +132,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="section footer-section text-center">
         <div class="row">
             <div class="col-12">
-                <span class="all-rights-reserved">© Copyright 2003-2022 Imperial Oil Limited. All Rights Reserved
+                <span class="all-rights-reserved">© 2022 International Seaways, Inc. All Rights Reserved.
                 </span>
             </div>
         </div>

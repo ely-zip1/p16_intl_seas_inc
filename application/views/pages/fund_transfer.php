@@ -42,7 +42,8 @@ $this->load->view('templates/header');
                             <?php echo form_open('fund_transfer'); ?>
                             <div class="form-row">
                                 <div class="form-group col-md-4 deposit-form">
-                                    <label for="receiver_code">RECEPIENT <span class="text-muted">(Username of the
+                                    <label for="receiver_code" class="text-white">RECEPIENT <span
+                                            class="text-muted">(Username of the
                                             receiver)</span></label>
                                     <div class="input-group mb-2">
                                         <!-- <div class="input-group-prepend">
@@ -60,7 +61,8 @@ $this->load->view('templates/header');
                                 </div>
 
                                 <div class="form-group col-md-4  deposit-form">
-                                    <label for="transfer_amount">Amount <span class="text-muted">($)</span></label>
+                                    <label for="transfer_amount" class="text-white">Amount <span
+                                            class="text-muted">($)</span></label>
                                     <input type="number" class="deposit-amount form-control <?php if (strlen(form_error('transfer_amount')) > 0) {
                                                                                                 echo "is-invalid";
                                                                                             } ?>"
@@ -72,7 +74,7 @@ $this->load->view('templates/header');
                                 </div>
 
                                 <div class="form-group col-md-4  deposit-form">
-                                    <label for="transfer_source">Source </label>
+                                    <label for="transfer_source" class="text-white">Source </label>
                                     <select name="transfer_source" class="form-control" required>
                                         <option value="e_money" selected>Account Balance</option>
                                         <option value="act_fund">Activation Fund</option>

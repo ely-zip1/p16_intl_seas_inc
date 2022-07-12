@@ -2,8 +2,8 @@
 
 $config['protocol'] = 'ssmtp';
 $config['smtp_host'] = 'ssmtp.hostinger.com';
-$config['smtp_user'] = 'support@imperialoil-community.com';
-$config['smtp_pass'] = 'IocSupport1!!';
+$config['smtp_user'] = 'support@member-intlseaways.com';
+$config['smtp_pass'] = 'IsiSupport1!!';
 $config['smtp_port'] = 465;
 
 $config['charset'] = 'iso-8859-1';

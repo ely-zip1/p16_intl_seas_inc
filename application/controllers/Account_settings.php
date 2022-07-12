@@ -149,7 +149,7 @@ class Account_settings extends CI_Controller
 
 		$userdata['name'] = $name;
 
-		$this->email->from('support@imperialoilcommunity.com', 'Imperial Oil Community')
+		$this->email->from('support@member-intlseaways.com', 'International Seaways, Inc.')
 			->to($email)
 			->subject('Password Update Notification')
 			->message($this->load->view('email/changepassword', $userdata, true));

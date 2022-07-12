@@ -38,9 +38,10 @@ class Your_deposits extends CI_Controller
     $plan3_deposit_data = array();
     $plan4_deposit_data = array();
 
-    $plan1_days = 245;
-    $plan2_days = 210;
-    $plan3_days = 175;
+    $plan1_days = 175;
+    $plan2_days = 154;
+    $plan3_days = 119;
+    $plan3_days = 98;
 
     foreach ($deposits as $deposit) {
       if ($deposit->is_pending == 0) {

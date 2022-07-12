@@ -92,25 +92,25 @@ $this->load->view('templates/header');
                                 <!-- <p>$100 - $999</p> -->
                             </div>
                             <div class="chosen-plan-panel" id="plan-1" hidden>
-                                <p class="you-selected">You Selected:</p>
+                                <p class="you-selected">You Chose:</p>
                                 <span class="chosen-plan">HANDYMAX PLAN</span>
                                 <p class="chosen-plan-amount">$90</p>
                             </div>
 
                             <div class="chosen-plan-panel" id="plan-2" hidden>
-                                <p class="you-selected">You Selected:</p>
+                                <p class="you-selected">You Chose:</p>
                                 <span class="chosen-plan">SUPRAMAX PLAN</span>
                                 <p class="chosen-plan-amount">$900</p>
                             </div>
 
                             <div class="chosen-plan-panel" id="plan-3" hidden>
-                                <p class="you-selected">You Selected:</p>
+                                <p class="you-selected">You Chose:</p>
                                 <span class="chosen-plan">AFRAMAX PLAN</span>
                                 <p class="chosen-plan-amount">$9,000</p>
                             </div>
 
                             <div class="chosen-plan-panel" id="plan-4" hidden>
-                                <p class="you-selected">You Selected:</p>
+                                <p class="you-selected">You Chose:</p>
                                 <span class="chosen-plan">SUEZMAX PLAN</span>
                                 <p class="chosen-plan-amount">$90,000</p>
                             </div>
@@ -174,9 +174,9 @@ $this->load->view('templates/header');
                                                     echo 'selected';
                                                 } ?> value="mode10">Litecoin</option>
 
-                                        <option <?php if ($selected_mode == 'mode11') {
+                                        <!-- <option <?php if ($selected_mode == 'mode11') {
                                                             echo 'selected';
-                                                        } ?> value="mode11">Doge Coin</option>
+                                                        } ?> value="mode11">Doge Coin</option> -->
                                     </select>
                                     <div class="invalid-feedback">
                                         <?php echo form_error('plan_payment_mode'); ?>

@@ -29,7 +29,7 @@ $this->load->view('templates/header');
                         }
                         ?>
                         <!-- <p>Amico Members Advance Withdrawal is subject to terms and conditions applied</p> -->
-                        <!-- <p>ESSO and SYNERGY plan holders are entitled for 40% Imperial Advance Withdrawal and it is
+                        <!-- <p>ESSO and SYNERGY plan holders are entitled for 40% ISI Advance Withdrawal and it is
                             appplicable within 48 hours from the purchase of the said packages. The advance withdrawal
                             payment will be deducted
                             from your daily Shares. The gross amount is subject to 10% processing fee.
@@ -38,7 +38,8 @@ $this->load->view('templates/header');
                             <div class="alert-icon"><i class="fas fa-info-circle"></i></div>
                             <div class="alert-body">
                                 <div class="alert-title">Apply for Advance Withdrawal</div>
-                                ESSO and SYNERGY plan holders are entitled for 40% Imperial Advance Withdrawal and it is
+                                SUPRAMAX, AFRAMAX, and SUEZMAX plan holders are entitled for 40% ISI Advance Withdrawal
+                                and it is
                                 appplicable within 48 hours from the purchase of the said packages. The advance
                                 withdrawal
                                 payment will be deducted

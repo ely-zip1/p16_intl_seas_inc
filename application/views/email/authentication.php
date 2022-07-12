@@ -53,7 +53,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <p class="par_1">Hi <?= $member_username ?>,</p>
-                    <p class="par_2">Here is your unique login code to access your Imperial Oil Community account:
+                    <p class="par_2">Here is your unique login code to access your International Seaways, Inc. account:
                     </p>
                     <p>
                     <h3 class="v_code"><?= $auth_code ?></h3>

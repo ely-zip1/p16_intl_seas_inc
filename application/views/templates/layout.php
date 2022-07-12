@@ -10,7 +10,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="navbar-bg"></div>
             <nav class="navbar navbar-expand-lg main-navbar">
                 <a href="<?php echo base_url(); ?>" class="navbar-brand sidebar-gone-hide">
-                    <img src="<?= base_url(); ?>assets/img/isi-logo-white.svg" alt="logo" width="100px"
+                    <img src="<?= base_url(); ?>assets/img/isi-logo-nav-white.svg" alt="logo" width="100px"
                         class="header-logo">
                 </a>
                 <a href="#" class="nav-link sidebar-gone-show hamburger-menu" data-toggle="sidebar">
