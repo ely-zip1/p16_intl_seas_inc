@@ -441,3 +441,20 @@ body {
     background-color: #07215a !important;
     color: white;
 }
+
+.row-accounts .card label {
+    color: white !important;
+}
+
+.acc_settings_submit {
+    background-color: #0a2c74 !important;
+    color: white;
+}
+
+.acc_settings_submit:hover {
+    background-color: #032f8f !important;
+}
+
+.acc_settings_submit:focus {
+    background-color: #011c57 !important;
+}

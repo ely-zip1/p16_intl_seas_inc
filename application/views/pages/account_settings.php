@@ -79,8 +79,8 @@ $this->load->view('templates/header');
                                     </div>
                                 </div>
                                 <div class="form-group text-right">
-                                    <button type="submit" class="btn btn-primary  acc_settings_submit"
-                                        name="account_submit" value="reset_password" tabindex="4">
+                                    <button type="submit" class="btn   acc_settings_submit" name="account_submit"
+                                        value="reset_password" tabindex="4">
                                         Update Password
                                     </button>
                                 </div>
@@ -176,8 +176,8 @@ $this->load->view('templates/header');
 
                             <div class="col-md-12 text-right">
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary  acc_settings_submit"
-                                        name="account_submit" value="bank" tabindex="4">
+                                    <button type="submit" class="btn   acc_settings_submit" name="account_submit"
+                                        value="bank" tabindex="4">
                                         Update Bank
                                     </button>
                                 </div>
@@ -207,8 +207,8 @@ $this->load->view('templates/header');
                             </div>
                             <div class="col-md-12 text-right">
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary  acc_settings_submit"
-                                        name="account_submit" value="bitcoin" tabindex="4">
+                                    <button type="submit" class="btn   acc_settings_submit" name="account_submit"
+                                        value="bitcoin" tabindex="4">
                                         Update BTC
                                     </button>
                                 </div>
@@ -238,8 +238,8 @@ $this->load->view('templates/header');
                             </div>
                             <div class="col-md-12 text-right">
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary  acc_settings_submit"
-                                        name="account_submit" value="ethereum" tabindex="4">
+                                    <button type="submit" class="btn   acc_settings_submit" name="account_submit"
+                                        value="ethereum" tabindex="4">
                                         Update ETH
                                     </button>
                                 </div>
@@ -284,8 +284,8 @@ $this->load->view('templates/header');
                             </div>
                             <div class="col-md-12 text-right">
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary  acc_settings_submit"
-                                        name="account_submit" value="ripple" tabindex="4">
+                                    <button type="submit" class="btn   acc_settings_submit" name="account_submit"
+                                        value="ripple" tabindex="4">
                                         Update XRP
                                     </button>
                                 </div>
@@ -315,8 +315,8 @@ $this->load->view('templates/header');
                             </div>
                             <div class="col-md-12 text-right">
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary  acc_settings_submit"
-                                        name="account_submit" value="tron" tabindex="4">
+                                    <button type="submit" class="btn   acc_settings_submit" name="account_submit"
+                                        value="tron" tabindex="4">
                                         Update TRX
                                     </button>
                                 </div>
@@ -346,7 +346,7 @@ $this->load->view('templates/header');
                             </div>
                             <div class="col-md-12 text-right">
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary  acc_settings_submit"
+                                    <button type="submit" class="btn   acc_settings_submit"
                                         name="account_submit" value="dog" tabindex="4">
                                         Update Doge
                                     </button>
@@ -377,8 +377,8 @@ $this->load->view('templates/header');
                             </div>
                             <div class="col-md-12 text-right">
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary  acc_settings_submit"
-                                        name="account_submit" value="ltc" tabindex="4">
+                                    <button type="submit" class="btn   acc_settings_submit" name="account_submit"
+                                        value="ltc" tabindex="4">
                                         Update LTC
                                     </button>
                                 </div>
