@@ -33,8 +33,9 @@ label {
 }
 
 .login_input {
-    background-color: #495057 !important;
+    background-color: #b5b5b5 !important;
     border: 1px solid #6b6f72 !important;
+    color: black !important;
 }
 
 .btn_login {
@@ -93,13 +94,13 @@ label {
 
 .btn_reset_password,
 .btn_verify {
-    background-color: #4284CE;
+    background-color: #0a2c74 !important;
     color: white;
 }
 
-.btn_reset_password,
+.btn_reset_password:hover,
 .btn_verify:hover {
-    background-color: #6db1ff !important;
+    background-color: #00319c !important;
 }
 
 .login-link>a {

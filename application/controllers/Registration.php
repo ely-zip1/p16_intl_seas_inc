@@ -68,7 +68,7 @@ class Registration extends CI_Controller
         'account_type_id' => '2',
         //   'country' => $_POST['country'],
         //   'birthdate' => $_POST['birthday'],
-        'verified' => '0',
+        'verified' => '1',
         'verification_code' => $verification_code,
         // 'beneficiary' => $_POST['beneficiary'],
         'referred_by' => $_POST['referral']
@@ -94,14 +94,15 @@ class Registration extends CI_Controller
 
         //   $this->ReferralModel->add_referral($new_referral);
 
-        $this->send_verification_email($_POST['email'], $verification_code);
+        // $this->send_verification_email($_POST['email'], $verification_code);
         // $this->send_welcome_email($user_data["email_address"], ucwords($user_data["full_name"]), $verification_code);
 
-        $this->session->set_flashdata("success", "yeey");
+        $this->session->set_flashdata("reg_status", "success");
 
         unset($_POST);
 
-        redirect('verification', 'refresh');
+        // redirect('verification', 'refresh');
+        redirect('registration', 'refresh');
       } else {
         // echo "failed";
         //   $this->load->view('login/header', $data);
@@ -111,64 +112,64 @@ class Registration extends CI_Controller
     }
   }
 
-  function send_verification_email($email, $verification_code)
-  {
+  // function send_verification_email($email, $verification_code)
+  // {
 
-    ini_set('display_errors', 1);
-    error_reporting(E_ALL);
-    $data['email'] = $email;
+  //   ini_set('display_errors', 1);
+  //   error_reporting(E_ALL);
+  //   $data['email'] = $email;
 
-    $this->load->library('email');
+  //   $this->load->library('email');
 
-    $this->email->from('support@member-intlseaways.com', 'International Seaways, Inc.')
-      ->to($data['email'])
-      ->subject('Email Verification')
-      ->message('
-      <style>
-        .verification_code
-        {
-          font-weight: bold;
-          font-size: 3.5vw;
-        }
-      </style>
-      <center>
-        <p>Thank you for registering! </p>
-        <p>Please use this code to verify your account. 
-        <br>
-          <span class="verification_code">' . $verification_code . '</span>
-        </p>
-      </center>');
+  //   $this->email->from('support@member-intlseaways.com', 'International Seaways, Inc.')
+  //     ->to($data['email'])
+  //     ->subject('Email Verification')
+  //     ->message('
+  //     <style>
+  //       .verification_code
+  //       {
+  //         font-weight: bold;
+  //         font-size: 3.5vw;
+  //       }
+  //     </style>
+  //     <center>
+  //       <p>Thank you for registering! </p>
+  //       <p>Please use this code to verify your account. 
+  //       <br>
+  //         <span class="verification_code">' . $verification_code . '</span>
+  //       </p>
+  //     </center>');
 
-    if ($this->email->send()) {
-      return true;
-    } else {
-      return false;
-    }
-  }
+  //   if ($this->email->send()) {
+  //     return true;
+  //   } else {
+  //     return false;
+  //   }
+  // }
 
-  function send_welcome_email($email, $fullname, $verification_code)
-  {
-    ini_set('display_errors', 1);
-    error_reporting(E_ALL);
-    // $data['email'] = $email;
-    // $data['fullname'] = $fullname;
+  // function send_welcome_email($email, $fullname, $verification_code)
+  // {
+  //   ini_set('display_errors', 1);
+  //   error_reporting(E_ALL);
+  //   // $data['email'] = $email;
+  //   // $data['fullname'] = $fullname;
 
-    $email_data['member_name'] = $fullname;
-    $email_data['verification_code'] = $verification_code;
+  //   $email_data['member_name'] = $fullname;
+  //   $email_data['verification_code'] = $verification_code;
 
-    $this->load->library('email');
+  //   $this->load->library('email');
 
-    $this->email->from('support@member-intlseaways.com', 'International Seaways, Inc.')
-      ->to($email)
-      ->subject('Welcome')
-      ->message($this->load->view('email/welcome', $email_data, true));
+  //   $this->email->from('support@member-intlseaways.com', 'International Seaways, Inc.')
+  //     ->to($email)
+  //     ->subject('Welcome')
+  //     ->message($this->load->view('email/welcome', $email_data, true));
 
-    if ($this->email->send()) {
-      return true;
-    } else {
-      return false;
-    }
-  }
+  //   if ($this->email->send()) {
+  //     return true;
+  //   } else {
+  //     return false;
+  //   }
+  // }
 
   function is_new_email()
   {

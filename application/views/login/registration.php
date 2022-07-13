@@ -62,12 +62,23 @@
                         </div>
 
                         <div class="card-body login_card_body">
-                            <!-- <div class="row">
-                                <div class="col-12 text-center">
-                                    <h3 class="reg-title">SIGN UP</h3>
 
+                            <?php
+                            if($this->session->flashdata('reg_status') == "success"){
+                            ?>
+                            <div class="alert alert-success alert-has-icon">
+                                <div class="alert-icon"><i class="far fa-check-circle"></i></div>
+                                <div class="alert-body">
+                                    <div class="alert-title">Hooray!</div>
+                                    You have successfully created an account.
+                                    <br>
+                                    Proceed to <a href="<?= base_url('login')?>"><strong> Login</strong></a>
                                 </div>
-                            </div> -->
+                            </div>
+
+                            <?php
+                            }
+                            ?>
 
 
                             <?php echo form_open('registration'); ?>

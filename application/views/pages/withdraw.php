@@ -22,7 +22,7 @@ $this->load->view('templates/header');
                                 <div class="alert-icon"><i class="far fa-bell"></i></div>
                                 <div class="alert-body">
                                     <div class="withdrawal_note">
-                                        Requests are processed within <strong>24-36</strong> hours with
+                                        Requests are processed within <strong>24-48</strong> hours with
                                         <strong>5%</strong>
                                         processing fee. Minimum withdrawal is <strong>$20</strong>.
                                     </div>
