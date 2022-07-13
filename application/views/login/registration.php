@@ -40,7 +40,7 @@
 
 <body class="body-login">
     <video autoplay muted loop class="homeVideoBackground">
-        <source src="<?= base_url('assets/img/corporate_profile.webm') ?>" type="video/mp4">
+        <source src="<?= base_url('assets/img/bg/corporate_profile.mp4') ?>" type="video/mp4">
     </video>
 
     <section class="login_section">
@@ -52,7 +52,8 @@
                             <div class="col-12 text-center">
                                 <div class="login-brand">
                                     <a href="<?= base_url(); ?>">
-                                        <img src="<?= base_url(); ?>assets/img/isi-logo.svg" alt="logo" width="200px">
+                                        <img src="<?= base_url(); ?>assets/img/isi-logo-white-blue.svg" alt="logo"
+                                            width="250px">
                                     </a>
                                     <br>
                                     <span class="login-brand-group">Registration</span>

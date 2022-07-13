@@ -63,7 +63,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <body class="body-login" id="page">
     <video autoplay muted loop class="homeVideoBackground">
-        <source src="<?= base_url('assets/img/corporate_profile.webm') ?>" type="video/mp4">
+        <source src="<?= base_url('assets/img/bg/corporate_profile.mp4') ?>" type="video/mp4">
     </video>
 
     <section class="login_section">
@@ -78,8 +78,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <div class="col-12 text-center">
                                     <div class="login-brand">
                                         <a href="<?= base_url(); ?>">
-                                            <img src="<?= base_url(); ?>assets/img/isi-logo.svg" alt="logo"
-                                                width="200px">
+                                            <img src="<?= base_url(); ?>assets/img/isi-logo-white-blue.svg" alt="logo"
+                                                width="250px">
                                         </a>
                                         <br>
                                         <span class="login-brand-group">Login</span>
@@ -105,8 +105,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <!-- <form method="POST" action="#" class="needs-validation" novalidate=""> -->
                             <?php echo form_open('login'); ?>
                             <div class="form-group">
-                                <label for="username" class="log_reg_label">User:</label>
-                                <input id="username" type="text" class="form-control <?php if (strlen(form_error('username')) > 0) {
+                                <label for="username" class="log_reg_label">Username:</label>
+                                <input id="username" type="text" class="form-control login_input <?php if (strlen(form_error('username')) > 0) {
                                                                                             echo "is-invalid";
                                                                                         } ?>" name="username"
                                     tabindex="1" autofocus value="<?= set_value('username', '', true) ?>" required>
@@ -120,7 +120,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     <label for="password" class="control-label log_reg_label">Password:</label>
 
                                 </div>
-                                <input id="password" type="password" class="form-control <?php if (strlen(form_error('password')) > 0) {
+                                <input id="password" type="password" class="form-control login_input <?php if (strlen(form_error('password')) > 0) {
                                                                                                 echo "is-invalid";
                                                                                             } ?>" name="password"
                                     tabindex="2" required>

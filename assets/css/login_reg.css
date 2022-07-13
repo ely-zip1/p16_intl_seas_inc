@@ -4,6 +4,10 @@ body {
     background-color: #0a2c74 !important;
 }
 
+label {
+    color: white !important;
+}
+
 .homeVideoBackground {
     position: fixed;
     right: 0;
@@ -15,16 +19,22 @@ body {
 .login_card {
     margin-top: 5%;
     box-shadow: 1px 1px 5px #00000066;
-    background-color: #ffffff9c;
-    border: 1px solid white;
+    background-color: #343a40d4 !important;
+    border: 1px solid #495057 !important;
     margin-bottom: 110px;
+    color: rgb(0, 162, 255);
 }
 
 .login-brand-group {
     /* font-size: 20px; */
     letter-spacing: normal;
     font-weight: bold;
-    color: #0a2c74;
+    color: #ffffff;
+}
+
+.login_input {
+    background-color: #495057 !important;
+    border: 1px solid #6b6f72 !important;
 }
 
 .btn_login {
@@ -41,12 +51,12 @@ body {
 }
 
 .sign_up {
-    color: #0a2c74;
+    color: rgb(255, 255, 255);
 }
 
 .forgot_password {
-    /* font-size: 11px; */
-    color: #0a2c74;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.733);
 }
 
 .all-rights-reserved {
@@ -67,10 +77,10 @@ body {
 .verification_card,
 .card_forgot_password {
     margin-top: 20px;
-    box-shadow: 1px 1px 5px #00000066;
-    background-color: #ffffffdd;
+    background-color: #343a40d4 !important;
+    border: 1px solid #495057 !important;
     margin-bottom: 110px;
-    color: #0a2c74 !important;
+    color: #ffffff !important;
 }
 
 .reg-title {
@@ -78,7 +88,7 @@ body {
 }
 
 .log_reg_label .text-muted {
-    color: #0077ff !important;
+    color: #fdfdfd !important;
 }
 
 .btn_reset_password,
@@ -89,11 +99,11 @@ body {
 
 .btn_reset_password,
 .btn_verify:hover {
-    background-color: #0077ff !important;
+    background-color: #6db1ff !important;
 }
 
 .login-link>a {
-    color: #0a2c74;
+    color: #3a6ad1;
 }
 
 

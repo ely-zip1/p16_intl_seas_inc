@@ -16,7 +16,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="col-12 text-center">
                             <div class="login-brand">
                                 <a href="<?= base_url();?>">
-                                    <img src="<?= base_url();?>assets/img/isi-logo.svg" alt="logo" width="200px">
+                                    <img src="<?= base_url();?>assets/img/isi-logo-white-blue.svg" alt="logo"
+                                        width="250px">
                                 </a>
                                 <br>
                                 <!-- <span class="login-brand-group">Amico Group of Companies</span> -->

@@ -1,9 +1,8 @@
-
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 </body>
-      <!-- <footer class="main-footer">
+<!-- <footer class="main-footer">
         <div class="footer-left">
           
         </div>
@@ -17,5 +16,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <?php $this->load->view('dist/_partials/js'); ?>
 <script src="https://kit.fontawesome.com/yourcode.js"></script>
 <script src="<?php echo base_url();?>assets/js/countrypicker.js"></script>
-</html>
 
+</html>

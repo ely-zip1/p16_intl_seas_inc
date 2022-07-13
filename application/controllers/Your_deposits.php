@@ -38,10 +38,10 @@ class Your_deposits extends CI_Controller
     $plan3_deposit_data = array();
     $plan4_deposit_data = array();
 
-    $plan1_days = 175;
-    $plan2_days = 154;
-    $plan3_days = 119;
-    $plan3_days = 98;
+    $plan1_days = 200;
+    $plan2_days = 180;
+    $plan3_days = 160;
+    $plan4_days = 140;
 
     foreach ($deposits as $deposit) {
       if ($deposit->is_pending == 0) {
@@ -136,36 +136,36 @@ class Your_deposits extends CI_Controller
 
         array_push($plan3_deposit_data, $plan3);
       }
-      // else if ($deposit->package_id == 6) {
-      //   $plan4 = array();
-      //   $plan4['amount'] = number_format($deposit->amount, 2, '.', ',');
+      else if ($deposit->package_id == 7) {
+        $plan4 = array();
+        $plan4['amount'] = number_format($deposit->amount, 2, '.', ',');
 
-      //   $payment_mode = $this->Deposit_Options->get_by_id($deposit->deposit_options_id);
-      //   $plan4['mode'] = $payment_mode->name;
+        $payment_mode = $this->Deposit_Options->get_by_id($deposit->deposit_options_id);
+        $plan4['mode'] = $payment_mode->name;
 
-      //   if ($payment_mode->name == 'XRP') {
-      //     $plan4['send_to'] = $payment_mode->tag . ' / ' . $payment_mode->account;
-      //   } else {
-      //     $plan4['send_to'] = $payment_mode->account;
-      //   }
+        if ($payment_mode->name == 'XRP') {
+          $plan4['send_to'] = $payment_mode->tag . ' / ' . $payment_mode->account;
+        } else {
+          $plan4['send_to'] = $payment_mode->account;
+        }
 
-      //   $plan4['date'] = $deposit->date;
-      //   $plan4['date_approved'] = $deposit->date_approved;
+        $plan4['date'] = $deposit->date;
+        $plan4['date_approved'] = $deposit->date_approved;
 
-      //   if ($deposit->deposit_options_id == 7) {
-      //     $plan4['status'] = 'Processed';
-      //   } else {
-      //     $plan4['status'] = ($deposit->is_pending == 1) ? 'Processing' : 'Processed';
-      //   }
+        if ($deposit->deposit_options_id == 7) {
+          $plan4['status'] = 'Processed';
+        } else {
+          $plan4['status'] = ($deposit->is_pending == 1) ? 'Processing' : 'Processed';
+        }
 
-      //   if ($deposit->is_pending == 1) {
-      //     $plan4['days_remaining'] = 'n/a';
-      //   } else {
-      //     $plan4['days_remaining'] = $this->calculate_remaining_days($plan4_days, $deposit->date_approved);
-      //   }
+        if ($deposit->is_pending == 1) {
+          $plan4['days_remaining'] = 'n/a';
+        } else {
+          $plan4['days_remaining'] = $this->calculate_remaining_days($plan4_days, $deposit->date_approved);
+        }
 
-      //   array_push($plan4_deposit_data, $plan4);
-      // }
+        array_push($plan4_deposit_data, $plan4);
+      }
     }
 
     $data['plan1_deposit_data'] = $plan1_deposit_data;

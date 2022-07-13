@@ -43,7 +43,7 @@ $this->load->view('templates/header');
                 <div class="col-lg-3">
                     <div class="plan-box plan-box-1">
                         <a id="package-1">
-                            <img src="<?= base_url(); ?>assets/img/packages/1.JPG" alt="">
+                            <img src="<?= base_url(); ?>assets/img/packages/1.jpeg" alt="">
                         </a>
                         <!-- <button class="purchase-button" id="package-1">ACTIVATE NOW</button> -->
                     </div>
@@ -52,7 +52,7 @@ $this->load->view('templates/header');
                 <div class="col-lg-3">
                     <div class="plan-box plan-box-2">
                         <a id="package-2">
-                            <img src="<?= base_url(); ?>assets/img/packages/2.JPG" alt="">
+                            <img src="<?= base_url(); ?>assets/img/packages/2.jpeg" alt="">
                         </a>
                         <!-- <button class="purchase-button" id="package-2">ACTIVATE NOW</button> -->
                     </div>
@@ -61,7 +61,7 @@ $this->load->view('templates/header');
                 <div class="col-lg-3">
                     <div class="plan-box plan-box-3">
                         <a id="package-3">
-                            <img src="<?= base_url(); ?>assets/img/packages/3.JPG" alt="">
+                            <img src="<?= base_url(); ?>assets/img/packages/3.jpeg" alt="">
                         </a>
                         <!-- <button class="purchase-button" id="package-3">ACTIVATE NOW</button> -->
                     </div>
@@ -70,7 +70,7 @@ $this->load->view('templates/header');
                 <div class="col-lg-3">
                     <div class="plan-box plan-box-4">
                         <a id="package-4">
-                            <img src="<?= base_url(); ?>assets/img/packages/4.JPG" alt="">
+                            <img src="<?= base_url(); ?>assets/img/packages/4.jpeg" alt="">
                         </a>
                         <!-- <button class="purchase-button" id="package-3">ACTIVATE NOW</button> -->
                     </div>

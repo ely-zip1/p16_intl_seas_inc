@@ -115,14 +115,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
             <li class="dropdown <?php echo $this->uri->segment(1) == 'about_us' ? 'active' : ''; ?>">
-                <a href="https://sec.report/Document/0001104659-22-057222/" class="nav-link">
+                <a href="https://sec.report/Document/0001104659-22-057222/" class="nav-link" target="_blank">
                     <img src="https://img.icons8.com/ios/100/FFFFFF/security-checked.png" />
                     <span>SEC Registration</span>
                 </a>
             </li>
 
             <li class="dropdown <?php echo $this->uri->segment(1) == 'about_us' ? 'active' : ''; ?>">
-                <a href="https://www.nyse.com/quote/XNYS:INSW" class="nav-link">
+                <a href="https://www.nyse.com/quote/XNYS:INSW" class="nav-link" target="_blank">
                     <img src="https://img.icons8.com/ios/100/FFFFFF/stocks--v1.png" />
                     <span>NYSE Live Chart</span>
                 </a>
@@ -130,7 +130,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
             <li class="dropdown <?php echo $this->uri->segment(1) == 'about_us' ? 'active' : ''; ?>">
                 <a href="https://www.nasdaq.com/market-activity/stocks/insw/advanced-charting?fbclid=IwAR1WSKInGOb22wNvjcFsr4KzvBCYS1G9U2QwBHcvG2N8MQBI9mENwQ8XTgw"
-                    class="nav-link">
+                    class="nav-link" target="_blank">
                     <img src="https://img.icons8.com/ios/100/FFFFFF/combo-chart--v1.png" />
                     <span>Nasdaq Live Chart</span>
                 </a>

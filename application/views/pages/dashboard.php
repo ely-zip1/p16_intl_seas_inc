@@ -38,7 +38,8 @@ $this->load->view('templates/header');
                     <div class="account-summary-box">
                         <div class="row account-summary-top">
                             <div class="col-md-4">
-                                <img src="https://img.icons8.com/fluency/96/000000/merchant-account.png" />
+                                <!-- <img src="https://img.icons8.com/carbon-copy/100/bbbbbb/general-ledger.png" /> -->
+                                <img src="https://img.icons8.com/nolan/96/00C6FF/0072FF/wallet.png" />
                             </div>
                             <div class="col-md-8">
                                 <span class="summary-label">ACCOUNT BALANCE</span><br>
@@ -59,7 +60,8 @@ $this->load->view('templates/header');
                     <div class="account-summary-box">
                         <div class="row account-summary-top">
                             <div class="col-md-4">
-                                <img src="https://img.icons8.com/fluency/96/000000/electro-devices.png" />
+                                <!-- <img src="https://img.icons8.com/carbon-copy/100/ffffff/finance-medal.png" /> -->
+                                <img src="https://img.icons8.com/nolan/96/00C6FF/0072FF/tip.png" />
                             </div>
                             <div class="col-md-8">
                                 <span class="summary-label">ACTIVATION FUNDS</span><br>
@@ -84,7 +86,8 @@ $this->load->view('templates/header');
                     <div class="account-summary-box">
                         <div class="row account-summary-top">
                             <div class="col-md-4">
-                                <img src="https://img.icons8.com/fluency/96/000000/bank.png" />
+                                <!-- <img src="https://img.icons8.com/carbon-copy/100/ffffff/us-dollar.png" /> -->
+                                <img src="https://img.icons8.com/nolan/96/00C6FF/0072FF/money.png" />
                             </div>
                             <div class="col-md-8">
                                 <span class="summary-label">ACTIVE DEPOSIT</span><br>
@@ -118,7 +121,8 @@ $this->load->view('templates/header');
                     <div class="account-summary-box">
                         <div class="row account-summary-top">
                             <div class="col-md-4">
-                                <img src="https://img.icons8.com/fluency/96/000000/safe-out.png" />
+                                <!-- <img src="https://img.icons8.com/carbon-copy/100/ffffff/atm.png" /> -->
+                                <img src="https://img.icons8.com/nolan/96/00C6FF/0072FF/atm.png" />
                             </div>
                             <div class="col-md-8">
                                 <span class="summary-label">TOTAL WITHDRAWAL</span><br>
@@ -188,7 +192,8 @@ $this->load->view('templates/header');
                         <span>Referral Link:</span>
                         <a href="<?php echo base_url(); ?>my/ref/<?php echo $username; ?>" class="affiliate-link"
                             id="affiliate-link">
-                            <span><?php echo base_url() . "my/ref/" . $username; ?></span>
+                            <span
+                                style="word-break: break-word;"><?php echo base_url() . "my/ref/" . $username; ?></span>
                         </a>
                         <button type="button" id="TextToCopy" class="copy-button" data-toggle="modal"
                             data-target=".modal-copy-success">
