@@ -84,7 +84,7 @@ $this->load->view('templates/header');
                                                 if ($deposit_payment_mode == 'Bitcoin') { ?>
 
                                     <div class="col-sm-8 table-receipt-data">
-                                        <img src="<?= base_url('assets/img/qr/btc.PNG') ?>" alt="bitcoin"
+                                        <img src="<?= base_url('assets/img/qr/btc.png') ?>" alt="bitcoin"
                                             width="150px" />
                                         <br>Account :<span class="deposit_address">
                                             <strong>
@@ -94,7 +94,7 @@ $this->load->view('templates/header');
                                     <?php } else if ($deposit_payment_mode == 'Ethereum') { ?>
 
                                     <div class="col-sm-8 table-receipt-data">
-                                        <img src="<?= base_url('assets/img/qr/eth.PNG') ?>" alt="ethereum"
+                                        <img src="<?= base_url('assets/img/qr/eth.png') ?>" alt="ethereum"
                                             width="150px" />
                                         <br>
                                         Account :<span class="deposit_address"> <strong>
@@ -104,7 +104,7 @@ $this->load->view('templates/header');
                                     <?php } else if ($deposit_payment_mode == 'Litecoin') { ?>
 
                                     <div class="col-sm-8 table-receipt-data">
-                                        <img src="<?= base_url('assets/img/qr/ltc.PNG') ?>" alt="litecoin"
+                                        <img src="<?= base_url('assets/img/qr/ltc.png') ?>" alt="litecoin"
                                             width="150px" />
                                         <br><span class="deposit_address">Account : <strong>
                                                 <?= $deposit_address ?></strong></span>
@@ -113,7 +113,7 @@ $this->load->view('templates/header');
                                     <?php } else if ($deposit_payment_mode == 'Doge Coin') { ?>
 
                                     <div class="col-sm-8 table-receipt-data">
-                                        <img src="<?= base_url('assets/img/qr/doge.PNG') ?>" alt="doge" width="150px" />
+                                        <img src="<?= base_url('assets/img/qr/doge.png') ?>" alt="doge" width="150px" />
                                         <br><span class="deposit_address">Account: <strong>
                                                 <?= $deposit_address ?></strong></span>
                                     </div>
@@ -121,7 +121,7 @@ $this->load->view('templates/header');
                                     <?php } else if ($deposit_payment_mode == 'XRP') { ?>
 
                                     <div class="col-sm-8 table-receipt-data">
-                                        <!-- <img src="<?= base_url('assets/img/qr/xrp.PNG') ?>" alt="xrp" width="150px" /> -->
+                                        <!-- <img src="<?= base_url('assets/img/qr/xrp.png') ?>" alt="xrp" width="150px" /> -->
                                         <br>
                                         <span class="deposit_address">
                                             Account : <strong><?= $deposit_address ?></strong>
@@ -135,7 +135,7 @@ $this->load->view('templates/header');
                                     <?php } else if ($deposit_payment_mode == 'Tron') { ?>
 
                                     <div class="col-sm-8 table-receipt-data">
-                                        <img src="<?= base_url('assets/img/qr/trx.PNG') ?>" alt="trx" width="150px" />
+                                        <img src="<?= base_url('assets/img/qr/trx.png') ?>" alt="trx" width="150px" />
                                         <br><span class="deposit_address">Account: <strong>
                                                 <?= $deposit_address ?></strong></span>
                                     </div>
