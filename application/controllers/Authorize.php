@@ -53,14 +53,13 @@ class Authorize extends CI_Controller
         // $userdata['avatar_initials'] = $initials;
 
         $this->session->set_userdata($userdata);
-        // $this->session->set_flashdata('new-login', "1");
+        $this->session->set_flashdata('new-login', "1");
 
 
         redirect('dashboard');
       } else {
         // $this->session->set_flashdata('member_id', $id);
         $this->session->set_flashdata('error', "Invalid code");
-        $this->session->set_flashdata('new-login', "1");
 
         redirect('authorize');
       }
