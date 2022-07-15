@@ -27,6 +27,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
             </li>
 
+            <li class="dropdown <?php echo $this->uri->segment(1) == 'marketing_plan' ? 'active' : ''; ?>">
+                <a href="<?= base_url(); ?>marketing_plan" class="nav-link">
+                    <img src="https://img.icons8.com/ios/50/ffffff/blueprint.png" />
+                    <span>Compensation Plan</span>
+                </a>
+
+            </li>
+
             <li class="dropdown <?php echo $this->uri->segment(1) == 'plans' ? 'active' : ''; ?>">
                 <a href="<?= base_url(); ?>plans" class="nav-link">
                     <img src="https://img.icons8.com/ios/50/ffffff/safe.png" />
@@ -42,14 +50,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </a>
 
             </li>
-
-            <!-- <li class="dropdown <?php echo $this->uri->segment(1) == 'marketing_plan' ? 'active' : ''; ?>">
-                <a href="<?= base_url(); ?>marketing_plan" class="nav-link">
-                    <img src="https://img.icons8.com/ios/50/ffffff/blueprint.png" />
-                    <span>Marketing Plan</span>
-                </a>
-
-            </li> -->
 
             <li class="dropdown <?php echo $this->uri->segment(1) == 'your_referrals' ? 'active' : ''; ?>">
                 <a href="<?= base_url(); ?>your_referrals" class="nav-link">

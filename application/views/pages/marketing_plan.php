@@ -6,19 +6,19 @@ $this->load->view('templates/header');
 
     <section class="section">
         <div class="section-header section-header-custom">
-            <h1 style="margin: auto;">MARKETING PLAN</h1>
+            <h1 style="margin: auto;">COMPENSATION PLAN</h1>
         </div>
         <div class="section-body">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="img-box">
-                        <img src="<?= base_url(); ?>assets/img/mkt_plan/1.JPG" alt="" class="market-plan-img">
+                        <img src="<?= base_url(); ?>assets/img/mkt_plan/1.jpeg" alt="" class="market-plan-img">
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="img-box">
-                        <img src="<?= base_url(); ?>assets/img/mkt_plan/2.JPG" alt="" class="market-plan-img">
+                        <img src="<?= base_url(); ?>assets/img/mkt_plan/2.jpeg" alt="" class="market-plan-img">
                     </div>
                 </div>
 
@@ -29,11 +29,11 @@ $this->load->view('templates/header');
                 </div> -->
 
 
-                <div class="col-lg-4">
+                <!-- <div class="col-lg-4">
                     <div class="img-box">
                         <img src="<?= base_url(); ?>assets/img/mkt_plan/4.JPG" alt="" class="market-plan-img">
                     </div>
-                </div>
+                </div> -->
 
 
                 <!-- <div class="col-lg-4">

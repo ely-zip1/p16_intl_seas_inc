@@ -22,6 +22,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </form>
 
                 <ul class="navbar-nav navbar-right">
+                    <span class="navbar_label text-white">Settings</span>
                     <li class="dropdown"><a href="#" data-toggle="dropdown"
                             class="nav-link dropdown-toggle nav-link-lg nav-link-user">
                             <img src="https://img.icons8.com/ios-filled/100/ffffff/user-male-circle.png" />

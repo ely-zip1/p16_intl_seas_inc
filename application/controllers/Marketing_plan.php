@@ -15,7 +15,7 @@ class Marketing_plan extends CI_Controller
 
     public function index()
     {
-        $data['title'] = 'Marketing Plan';
+        $data['title'] = 'Compensation Plan';
 
         $this->load->view('pages/marketing_plan', $data);
     }
