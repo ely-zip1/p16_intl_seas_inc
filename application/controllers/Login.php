@@ -82,6 +82,9 @@ class Login  extends CI_Controller
 								$user['user_id'] = $member_data->id;
 								$this->session->set_userdata($user);
 
+								// $userdata['user_id'] = $member_data->id;
+								// $this->session->set_userdata($userdata);
+
 								$this->session->set_flashdata('member_id', $member_data->id);
 								 redirect('authorize');
 								//redirectredirect('logout');

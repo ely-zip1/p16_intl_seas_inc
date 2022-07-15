@@ -91,12 +91,16 @@ the responsive table generator code on sites not in UNLcms or the UNL.edu framew
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content video-ad-modal">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
-            <img src="<?= base_url("/assets/img/announcement-modal.png") ?>" alt="announcement" width="100%">
+            <!-- <img src="<?= base_url("/assets/img/announcement-modal.png") ?>" alt="announcement" width="100%"> -->
+            <video width="100%" controls id="video_ad">
+                <source src="https://s2.q4cdn.com/533545754/files/images/irw/26092019_Lois_Zabrocky_SHIPPING.mp4"
+                    type="video/mp4">
+            </video>
         </div>
     </div>
 </div>

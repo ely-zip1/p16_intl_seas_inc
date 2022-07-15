@@ -60,6 +60,7 @@ class Authorize extends CI_Controller
       } else {
         // $this->session->set_flashdata('member_id', $id);
         $this->session->set_flashdata('error', "Invalid code");
+        $this->session->set_flashdata('new-login', "1");
 
         redirect('authorize');
       }

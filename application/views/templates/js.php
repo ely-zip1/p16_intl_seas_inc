@@ -250,6 +250,12 @@ if ($this->uri->segment(2) == "" || $this->uri->segment(2) == "index") { ?>
 <script>
 $(document).ready(function() {
     $('#exampleModal').modal('show');
+
+    $('#exampleModal').on('hidden.bs.modal', function() {
+        $("video").each(function() {
+            $(this).get(0).pause();
+        })
+    })
 })
 </script>
 

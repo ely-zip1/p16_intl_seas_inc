@@ -458,3 +458,17 @@ body {
 .acc_settings_submit:focus {
     background-color: #011c57 !important;
 }
+
+.video-ad-modal {
+    background-color: #242424 !important;
+}
+
+.video-ad-modal>button {
+    position: fixed;
+    right: 10px;
+    color: rgb(0, 0, 0) !important;
+}
+
+.video-ad-modal>button>span {
+    color: white !important;
+}
