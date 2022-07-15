@@ -31,7 +31,7 @@ $this->load->view('templates/header');
                             <span class="ref-count">Total: <?php echo $active_referrals; ?></span>
                         </div>
                         <div class="card-body table-responsive">
-                            <table class="table table-striped table-light">
+                            <table class="table table-striped table-dark">
                                 <tbody>
                                     <tr>
                                         <th scope="col">Username</th>
