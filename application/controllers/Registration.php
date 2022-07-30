@@ -102,7 +102,7 @@ class Registration extends CI_Controller
         unset($_POST);
 
         // redirect('verification', 'refresh');
-        redirect('registration', 'refresh');
+        redirect('login');
       } else {
         // echo "failed";
         //   $this->load->view('login/header', $data);
